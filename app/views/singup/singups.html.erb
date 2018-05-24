@@ -1,0 +1,53 @@
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 col-xs-4">
+      <div class="panel panel-defuault">
+        <div align="center">
+        </div>  
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="container">
+    <div class="row">
+     <div class="col-md-8">
+        <div class="panel panel-defuault">
+         <div class="panel-heading"><strong>RESALIN</strong> </div>
+          <div class="panel-body">
+            <div align="justify">
+              Con la finalidad de ofrecer un servicio integral en la eduacion media superior a la comunidad estudiantil, el <strong>CETis No. 157</strong> incorpora la plataforma <strong>RESALIN</strong> que tiene como objetivo brindar las herramientas necesarias para prevenir la desercion escolar.<br><br> 
+              Para hacer uso de esta plataforma, es indispensable estar registrado en el departamento de sistemas.
+            </div>
+          </div>
+        </div>
+     </div>
+    <div class="col-md-4">
+        <div class="panel panel-defuault">
+          <div class="panel-body">
+              <div class="panel panel-primary">
+                <div class="panel-heading" align="center">Ingreso a plataforma</div>
+                  <div class="panel-body">
+                    <div class="input-group">
+                       <span class="input-group-addon">@</span>
+                       <input id="user" class="form-control" type="email" name="user" placeholder="Usuario" pattern="[a-z]{1,20}" required>
+                    </div>    
+                    <div class="input-group">
+                       <span class="input-group-addon glyphicon glyphicon-lock"></span>
+                       <input id="password" class="form-control" type="password" name="pass" placeholder="Password">
+                    </div> 
+                     <br>
+                    <input id="send" class ="form-control btn-success" type="Submit" value="Siguiente" src="">
+                  </div>
+          </div>
+        </div>  
+    </div> 
+  </div>
+<script lenguage="javascript" type="text/javascript">
+document.getElementbyId("send").addEventListener("click",myFunc);
+
+function myFunc(){
+document.getElementbyId("user").innerHTML = "hiii";
+}
+
+</script>
